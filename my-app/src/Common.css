@@ -1,4 +1,4 @@
-.Common {
+.Common-Title{
   text-align: center;
 }
 
@@ -13,19 +13,37 @@
   }
 }
 
-.Common-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Common-margin {
+  min-height: 8vh;
+}
+
+.Common-date {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: 600;
+  color: #6d6d6d;
+}
+
+.Common-greeting {
+  min-height: 130vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(9px + 2vmin);
+  color: #6d6d6d;
 }
 
 .Common-link {
-  color: #61dafb;
+  color: #6d6d6d;
+  font-weight: 600;
+}
+
+.Common-bg{
+  color: #e7e0d3;
 }
 
 @keyframes Common-logo-spin {
@@ -36,3 +54,4 @@
     transform: rotate(360deg);
   }
 }
+
